@@ -1,4 +1,4 @@
-# Crisis Chess Board
+# Cyber Crisis Chess Board
 Source code for prototype implementation of _Cyber_ _Crisis_ _Chess_ _Board_ related to a master thesis at NTNU.
 
 ## High level overview:
