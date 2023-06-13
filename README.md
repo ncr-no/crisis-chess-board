@@ -1,5 +1,7 @@
 # Crisis Chess Board
 
+## High level overview:
+![image](https://github.com/ncr-no/crisis-chess-board/assets/46197518/39dcb65d-bed7-4081-a99c-9cefc15ae016)
 
 ## Setup:
 
