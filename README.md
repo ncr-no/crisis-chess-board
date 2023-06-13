@@ -2,7 +2,7 @@
 Source code for prototype implementation of _Cyber_ _Crisis_ _Chess_ _Board_ related to a master thesis at NTNU.
 
 ## High level overview:
-![image](https://github.com/ncr-no/crisis-chess-board/assets/46197518/39dcb65d-bed7-4081-a99c-9cefc15ae016)
+![image](https://github.com/ncr-no/crisis-chess-board/assets/46197518/81da7048-2fb7-4a19-8be4-41d44cb742d4)
 
 ## Setup:
 
