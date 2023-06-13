@@ -1,0 +1,18 @@
+[
+    {"name": "CEO"},
+    {"name": "CTO"},
+    {"name": "CFO"},
+    {"name": "CISO"},
+    {"name": "Crisis Manager"},
+    {"name": "Assistant CM"},
+    {"name": "Data Protection Officer"},
+    {"name": "Press Coordinator"},
+    {"name": "Legal Officer"},
+    {"name": "HR-Manager"},
+    {"name": "Communication Manager"},
+    {"name": "System Manager"},
+    {"name": "Recovery Manager"},
+    {"name": "IT Operations Officer"},
+    {"name": "IT Security Team Lead"},
+    {"name": "Incident Manager"}
+]

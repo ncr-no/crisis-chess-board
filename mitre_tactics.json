@@ -1,0 +1,6 @@
+{
+    "10.11.4.174": {"technique": ["T1046 - Network Service Scanning"] , "level": 5}, 
+    "10.11.4.138": {"technique": [], "level": 5}, 
+    "10.11.3.10": {"technique": [], "level": 5}, 
+    "10.11.4.172": {"technique": ["T1486 - Data Encrypted for Impact"], "level": 5}
+}
