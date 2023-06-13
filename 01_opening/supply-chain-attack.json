@@ -1,0 +1,51 @@
+[
+    {
+      "Description": "Schedule initial Status Meeting with Relevant personnel",
+      "Responsible": "Crisis Manager",
+      "Time": "20m",
+      "Content": "Organize an immediate meeting with all key stakeholders, including upper management and relevant department heads, to discuss the current situation, share initial findings, and outline next steps.",
+      "Priority": 3
+    },
+    {
+      "Description": "Contact supplier",
+      "Responsible": "CTO",
+      "Time": "3h",
+      "Content": "Contact supplier to retrieve information about ongoing efforts related to the incident. When will patch be available? What are the IOCs? What actions can be taken to mitigate the risk",
+      "Priority": 3
+    },
+    {
+      "Description": "Identify and apply mitigation measures",
+      "Responsible": "CISO",
+      "Time": "3h",
+      "Content": "Decide whether to disconnect affected vendor services until patch is available. Consider business impact and risk of compromise.",
+      "Priority": 3
+    },
+    {
+      "Description": "Patch affected services",
+      "Responsible": "CTO",
+      "Time": "2d",
+      "Content": "When patch is available, patch affected services",
+      "Priority": 3
+    },
+    {
+      "Description": "Inform employees that there is a low threshold for reporting suspicious activity",
+      "Responsible": "HR-Manager",
+      "Time": "6h",
+      "Content": "content-placeholder",
+      "Priority": 3
+    },
+    {
+      "Description": "Search for signs of compromise",
+      "Responsible": "IT Security Team Lead",
+      "Time": "6h",
+      "Content": "Use IOCs to determine whether organization is compromised",
+      "Priority": 3
+    },
+    {
+      "Description": "Assess affected systems and infrastructure",
+      "Responsible": "IT Operations Officer",
+      "Time": "1d",
+      "Content": "Identify systems and infrastructure potentially affected by the supply chain attack and assess the potential consequences.",
+      "Priority": 1
+    }
+]

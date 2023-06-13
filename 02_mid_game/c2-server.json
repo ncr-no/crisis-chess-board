@@ -1,0 +1,30 @@
+[
+  {
+    "Description": "Restore infected systems from backups",
+    "Responsible": "Recovery Manager",
+    "Time": "3d",
+    "Content": "Restore systems from backups according to BCP.",
+    "Priority": 3
+  },
+  {
+    "Description": "Monitor for signs of reinfection",
+    "Responsible": "IT Security Team Lead",
+    "Time": "3d",
+    "Content": "Ongoing: Look for signs of systems being infected.",
+    "Priority": 3
+  },
+  {
+    "Description": "Verify that the system works as expected after the restoration",
+    "Responsible": "Recovery Manager",
+    "Time": "4h",
+    "Content": "Ensure that the system is working as expected after the restoration has been completed.",
+    "Priority": 1
+  },
+  {
+    "Description": "Depending on what data was transferred to C2 server, contact regulatory bodies.",
+    "Responsible": "Legal Officer",
+    "Time": "4h",
+    "Content": "Ensure that the org. is compliant with laws and regulations in terms of e.g. data breaches.",
+    "Priority": 1
+  }
+]

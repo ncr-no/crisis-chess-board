@@ -1,0 +1,58 @@
+[
+  {
+    "Description": "Schedule Initial Status Meeting and alert personnel",
+    "Responsible": "Crisis Manager",
+    "Time": "20m",
+    "Content": "Organize an immediate meeting with all key stakeholders, including upper management and relevant department heads, to discuss the current situation, share initial findings, and outline next steps.",
+    "Priority": 1
+  },
+  {
+    "Description": "Identify Compromised System",
+    "Responsible": "IT Security Team Lead",
+    "Time": "20m",
+    "Content": "Identify the system that has been compromised.",
+    "Priority": 1
+  },
+  {
+    "Description": "Perform initial damage assessment",
+    "Responsible": "Incident Manager",
+    "Time": "4h",
+    "Content": "Assess the initial scope and impact of the system compromise on systems, data and operations.",
+    "Priority": 3
+  },
+  {
+    "Description": "Assess financial impact and risk exposure",
+    "Responsible": "CFO",
+    "Time": "6h",
+    "Content": "Estimate the financial implications of the attack, considering factors such as potential loss of revenue, remediation costs, and regulatory fines. This information will be critical in decision-making processes.",
+    "Priority": 2
+  },
+  {
+    "Description": "Gather IOCs from attack",
+    "Responsible": "Incident Manager",
+    "Time": "4h",
+    "Content": "IP addresses, the domain, network logs, etc.",
+    "Priority": 3
+  },
+  {
+    "Description": "Identify attack vector",
+    "Responsible": "IT Security Team Lead",
+    "Time": "4h",
+    "Content": "What was the attack vector behind the attack?",
+    "Priority": 3
+  },
+  {
+    "Description": "Locate Business-Continuity plan for restoring the system",
+    "Responsible": "Recovery Manager",
+    "Time": "4h",
+    "Content": "Locate plan and start preparing for restoring the system.",
+    "Priority": 2
+  },
+  {
+    "Description": "Isolate infected systems",
+    "Responsible": "CISO",
+    "Time": "4h",
+    "Content": "Isolate the infected system..",
+    "Priority": 1
+  }
+]

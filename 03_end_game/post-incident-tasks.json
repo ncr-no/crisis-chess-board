@@ -1,0 +1,65 @@
+[
+    {
+        "Description": "Draft a post-incident report with lessons learned, actions taken",
+        "Responsible": "Crisis Manager",
+        "Time": "2w",
+        "Content": "Create a detailed report about the incident, the organization's response, lessons learned, and recommendations for future improvements.",
+        "Priority": "2"
+    },
+    {
+        "Description": "Hold a 'lessons learned' meeting (mandatory for major incidents, optional otherwise)",
+        "Responsible": "Crisis Manager",
+        "Time": "4d",
+        "Content": "Review the incident and identify areas for improvement, and document lessons learned.",
+        "Priority": "1"
+      },
+      {
+        "Description": "Share IOCs with appropriate stakeholders",
+        "Responsible": "CISO",
+        "Time": "2d",
+        "Content": "Distribute Indicators of Compromise (IOCs) with relevant partners, authorities, and industry groups to help prevent similar attacks in the future.",
+        "Priority": "2"
+      },
+      {
+        "Description": "Consider sharing lessons identified with appropriate external stakeholders",
+        "Responsible": "CISO",
+        "Time": "2d",
+        "Content": "What did we learn? What could we have done better? What could we do better next time?",
+        "Priority": "2"
+      },
+      {
+        "Description": "Implement preventative measures to deny future breaches",
+        "Responsible": "IT Operations Officer",
+        "Time": "2w",
+        "Content": "Conduct root cause analysis to identify underlying vulnerabilities. Remediate underlying vulnerabilities.",
+        "Priority": "3"
+      },
+      {
+        "Description": "If applicable: Update audit/breach log",
+        "Responsible": "Crisis Manager",
+        "Time": "2d",
+        "Content": "Document the ransomware incident in the organization's audit and breach logs for future reference and compliance purposes.",
+        "Priority": "1"
+      },
+      {
+        "Description": "Publish internal communications to inform and educate employees on the attack and on security awareness.",
+        "Responsible": "HR-Manager",
+        "Time": "3d",
+        "Content": "Consider notifying employees in detail about the incident, and provide relevant details of the attack, the impact, and offer guidance on how to protect themselves from future attacks.",
+        "Priority": "1"
+      },
+      {
+        "Description": "Review staff welfare (working hours, overtime, expenses)",
+        "Responsible": "HR-Manager",
+        "Time": "1w",
+        "Content": "Assess the well-being of employees who were involved in the incident response and provide necessary support or resources to reduce stress or concerns.",
+        "Priority": "1"
+      },
+      {
+        "Description": "Publish external communications, if appropriate, in line with the communications strategy to provide advice to customers, the market, and inform press of the cyber incident.",
+        "Responsible": "Press Coordinator",
+        "Time": "7d",
+        "Content": "Communication should help build trust and restore the reputation. Should provide key information of the cyber incident without leaving the organisation vulnerable or inciting further ransomware attacks.",
+        "Priority": "3"
+      } 
+]

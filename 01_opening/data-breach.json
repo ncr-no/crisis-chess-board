@@ -1,0 +1,93 @@
+[
+    {
+        "Description": "Schedule Initial Status Meeting and alert personnel",
+        "Responsible": "Crisis Manager",
+        "Time": "20m",
+        "Content": "Organize an immediate meeting with all key stakeholders, including upper management and relevant department heads, to discuss the current situation, share initial findings, and outline next steps.",
+        "Priority": 1
+    }, 
+    {
+        "Description": "Identify attack vector",
+        "Responsible": "CISO",
+        "Time": "3h",
+        "Content": "Analyze logs, network traffic, and other available information to determine the source and method of the cyber incident.",
+        "Priority": 2
+    },
+    {
+        "Description": "Assess financial impact and risk exposure",
+        "Responsible": "CFO",
+        "Time": "6h",
+        "Content": "Estimate the financial implications of the data breach, considering factors such as potential loss of revenue, remediation costs, regulatory fines, and reputational damage.",
+        "Priority": 2
+    },
+    {
+        "Description": "Develop a communication strategy for stakeholders",
+        "Responsible": "Communication Manager",
+        "Time": "4h",
+        "Content": "Prepare a plan for communicating with internal and external stakeholders, including employees, customers, and partners, about the incident and the organization's response. This plan will help manage the reputation and potential fallout from the attack.",
+        "Priority": 2
+      },
+    {
+        "Description": "Classify the cyber incident based upon available information according to the organizations CIRP.",
+        "Responsible": "Crisis Manager",
+        "Time": "45m",
+        "Content": "Evaluate the incident's severity and scope in alignment with the organization's Cyber Incident Response Plan classifications.",
+        "Priority": 2
+    },
+    {
+        "Description": "Monitor dark web for stolen data",
+        "Responsible": "Data Protection Officer",
+        "Time": "2d",
+        "Content": "Look for signs of stolen data being uploaded to the dark web.",
+        "Priority": 3
+    },
+    {
+        "Description": "Notify Norwegian Data Protection Authority (Datatilsynet)",
+        "Responsible": "Data Protection Officer",
+        "Time": "72h",
+        "Content": "By law - Notify within 72 hours https://www.datatilsynet.no/rettigheter-og-plikter/virksomhetenes-plikter/avvik/meld-avvik-til-datatilsynet/",
+        "Priority": 2
+    },
+    {
+        "Description": "Identify affected customers",
+        "Responsible": "CTO",
+        "Time": "12h",
+        "Content": "Identify which customer data have been affected by the data breach.",
+        "Priority": 2
+    },
+    {
+        "Description": "Report the incident to the Police",
+        "Responsible": "Crisis Manager",
+        "Time": "1d",
+        "Content": "Gather applicable data about the incident and report to the police.",
+        "Priority": 3
+    },
+    {
+        "Description": "Create hypothesis for what data could have been stolen or not",
+        "Responsible": "Data Protection Officer",
+        "Time": "6h",
+        "Content": "Work to confirm/disconfirm these",
+        "Priority": 3
+    },
+    {
+        "Description": "Notify shareholders",
+        "Responsible": "CEO",
+        "Time": "1d",
+        "Content": "Notify shareholders about the data breach.",
+        "Priority": 2
+    },
+    {
+        "Description": "Isolate infected systems",
+        "Responsible": "IT Security Team Lead",
+        "Time": "3h",
+        "Content": "Isolate the infected systems.",
+        "Priority": 1
+    },
+    {
+        "Description": "Secure evidence and logs",
+        "Responsible": "IT Security Team Lead",
+        "Time": "1d",
+        "Content": "Secure logs and evidence from the attack.",
+        "Priority": 1
+    }
+]

@@ -1,0 +1,16 @@
+[
+  {
+    "Description": "Consider moving infrastructure to a cloud provider",
+    "Responsible": "CTO",
+    "Time": "1w",
+    "Content": "Consider moving digital infrastructure to a cloud provider, e.g. AWS, Azure, etc.",
+    "Priority": 3
+  },
+  {
+    "Description": "Monitor for Recurrence of Denial of Service Attack",
+    "Responsible": "CTO",
+    "Time": "1w",
+    "Content": "Continuously observe for indications of the Denial of Service attack resurfacing. In case of recurrence, deploy appropriate mitigation measures.",
+    "Priority": 3
+  }
+]

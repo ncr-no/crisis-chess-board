@@ -1,0 +1,65 @@
+[
+    {
+        "Description": "Schedule Initial Status Meeting and alert personnel",
+        "Responsible": "Crisis Manager",
+        "Time": "20m",
+        "Content": "Organize an immediate meeting with all key stakeholders, including upper management and relevant department heads, to discuss the current situation, share initial findings, and outline next steps.",
+        "Priority": 1
+    },
+    {
+        "Description": "Identify attack vector",
+        "Responsible": "IT Security Team Lead",
+        "Time": "3h",
+        "Content": "Analyze logs, network traffic, and other available information to determine the source and method of the cyber incident.",
+        "Priority": 2
+    },
+    {
+        "Description": "Gather IOCs and share these with relevant parties",
+        "Responsible": "Incident Manager",
+        "Time": "2h",
+        "Content": "Share IOCs with e.g. NSM, CERTs, etc.",
+        "Priority": 2
+    },
+    {
+        "Description": "Contain incident",
+        "Responsible": "CISO",
+        "Time": "4h",
+        "Content": "Isolate and disconnect compromised systems",
+        "Priority": 2
+    },
+    {
+        "Description": "Identify compromised servers / users",
+        "Responsible": "IT Security Team Lead",
+        "Time": "5h",
+        "Content": "Identify compromised servers / users",
+        "Priority": 2
+    },
+    {
+        "Description": "Locate Business Continuity Plan and backups",
+        "Responsible": "Recovery Manager",
+        "Time": "12h",
+        "Content": "Locate plans and backups, prepare for restoration of affected systems", 
+        "Priority": 2
+    },
+    {
+        "Description": "Identify and mitigate all vulnerabilities that were exploited",
+        "Responsible": "IT Operations Officer",
+        "Time": "4d",
+        "Content": "Identify and mitigate all vulnerabilities that were exploited",
+        "Priority": 2
+    },
+    {
+        "Description": "Identify if/what data has been transferred to the C2 server",
+        "Responsible": "CISO",
+        "Time": "12h",
+        "Content": "Has sensitive data been transferred to the C2 server?",
+        "Priority": 2
+    },
+    {
+        "Description": "Block traffic to C2 Server",
+        "Responsible": "IT Security Team Lead",
+        "Time": "3h",
+        "Content": "Identify to what IP/domain the C2 server is communicating and block traffic to this IP/domain.",
+        "Priority": 2
+    }
+]

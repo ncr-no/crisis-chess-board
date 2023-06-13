@@ -1,0 +1,23 @@
+[
+  {
+    "Description": "Implement URL analysis for incoming emails",
+    "Responsible": "CISO",
+    "Time": "3d",
+    "Content": "This could warn about suspicious links in emails",
+    "Priority": 1
+  },
+  {
+    "Description": "Implement mitigation measures to deny future phishing attacks",
+    "Responsible": "CISO",
+    "Time": "2d",
+    "Content": "MFA (security keys?) for all employees, email filtering, security training, phishing tests,",
+    "Priority": 2
+  },
+  {
+    "Description": "Restore Employee Access to Services",
+    "Responsible": "IT Operations Officer",
+    "Time": "6h",
+    "Content": "Restore employee access to previously locked services. Email, VPN, etc.",
+    "Priority": 2
+  }
+]

@@ -1,0 +1,79 @@
+[
+  {
+    "Description": "Schedule Initial Status Meeting and alert personnel",
+    "Responsible": "Crisis Manager",
+    "Time": "20m",
+    "Content": "Organize an immediate meeting with all key stakeholders, including upper management and relevant department heads, to discuss the current situation, share initial findings, and outline next steps.",
+    "Priority": 1
+  },
+  {
+    "Description": "Determine scope of the attack",
+    "Responsible": "CISO",
+    "Time": "3h",
+    "Content": "Determine the scope of the ransomware attack by identifying all impacted systems, services, and data. This information will be crucial in understanding the extent of the damage and prioritizing recovery efforts.",
+    "Priority": 1
+  },
+  {
+    "Description": "Preserve evidence and initiate a forensic investigation",
+    "Responsible": "CISO",
+    "Time": "1d",
+    "Content": "Secure and preserve all relevant digital evidence, including logs and infected systems, to facilitate a thorough forensic investigation. The investigation will help identify vulnerabilities, attack vectors, and potential measures to prevent future incidents.",
+    "Priority": 1
+  },
+  {
+    "Description": "Assess financial impact and risk exposure",
+    "Responsible": "CFO",
+    "Time": "4h",
+    "Content": "Estimate the financial implications of the attack, considering factors such as potential loss of revenue, remediation costs, and regulatory fines. This information will be critical in decision-making processes.",
+    "Priority": 2
+  },
+  {
+    "Description": "Create a priority list for recovering systems",
+    "Responsible": "CTO",
+    "Time": "6h",
+    "Content": "Develop a list of critical systems and services that need to be restored first, considering business needs, customer impact, and regulatory requirements. This list will guide recovery and remediation efforts.",
+    "Priority": 3
+  },
+  {
+    "Description": "Develop a communication strategy for stakeholders",
+    "Responsible": "Communication Manager",
+    "Time": "6h",
+    "Content": "Prepare a plan for communicating with internal and external stakeholders, including employees, customers, and partners, about the incident and the organization's response. This plan will help manage the reputation and potential fallout from the attack.",
+    "Priority": 2
+  },
+  {
+    "Description": "Isolate the Infected Systems",
+    "Responsible": "IT Security Team Lead",
+    "Time": "6h",
+    "Content": "Isolate the infected system(s) from the network and the internet to prevent the spread of the ransomware to other systems. Disconnect the system(s) from any wired or wireless networks.",
+    "Priority": 1
+  },
+  {
+    "Description": "Notify shareholders",
+    "Responsible": "CEO",
+    "Time": "8h",
+    "Content": "The CEO should consider notifying shareholders of the attack, providing a high-level overview of the incident and the steps being taken to contain and remediate it. This can help maintain transparency and trust with stakeholders and demonstrate the organization's commitment to effective risk management and data protection.",
+    "Priority": 3
+  },
+  {
+    "Description": "Notify Law Enforcement",
+    "Responsible": "Legal Officer",
+    "Time": "12h",
+    "Content": "Notify law enforcement of the attack and provide any relevant details. This may include working with law enforcement to investigate the attack and potentially track down the attackers.",
+    "Priority": 3
+  },
+  {
+    "Description": "Notify regulatory authorities",
+    "Responsible": "Legal Officer",
+    "Time": "12h",
+    "Content": "Notify any regulatory bodies or authorities that require notification of a data breach or security incident (e.g., as required by law or regulation. This may include working with legal counsel to ensure compliance with any reporting requirements.",
+    "Priority": 3
+  },
+  {
+    "Description": "Locate BCP procedures and backups",
+    "Responsible": "Recovery Manager",
+    "Time": "3h",
+    "Content": "Locate BCP and backups, start preparing for restoration of systems and data.",
+    "Priority": 1
+  }
+]

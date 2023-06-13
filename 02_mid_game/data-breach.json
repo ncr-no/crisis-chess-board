@@ -1,0 +1,30 @@
+[
+  {
+      "Description": "Perform forensic analysis",
+      "Responsible": "IT Security Team Lead",
+      "Time": "1d",
+      "Content": "Conduct a detailed forensic analysis of the affected systems to identify the source, exfiltration method, and potential actors behind the incident.",
+      "Priority": 3
+  },
+  {
+      "Description": "Keep monitoring for signs of stolen data being published online",
+      "Responsible": "Data Protection Officer",
+      "Time": "2d",
+      "Content": "Look for signs of stolen data being uploaded to the web.",
+      "Priority": 3
+  },
+  {
+      "Description": "Assess and mitigate all vulnerabilities", 
+      "Responsible": "CISO",
+      "Time": "2d",
+      "Content": "All vulnerabilities exploited in the attack must be mitigated to deny future breaches.",
+      "Priority": 1
+  },
+  {
+      "Description": "Mitigate all vulnerabilities exploited in attack", 
+      "Responsible": "CISO",
+      "Time": "2d",
+      "Content": "All vulnerabilities exploited in the attack must be mitigated to deny future breaches.",
+      "Priority": 3
+  }
+]

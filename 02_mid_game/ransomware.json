@@ -1,0 +1,44 @@
+[
+  {
+    "Description": "Assess Decryption Options",
+    "Responsible": "CISO",
+    "Time": "8h",
+    "Content": "Evaluate the feasibility of decrypting the files.",
+    "Priority": 1
+  },
+  {
+    "Description": "Contact Ransomware Group",
+    "Responsible": "Incident Manager",
+    "Time": "8h",
+    "Content": "If the ransomware group has provided contact information, establish contact.",
+    "Priority": 1
+  },
+  {
+    "Description": "Evaluate Payment Options",
+    "Responsible": "CFO",
+    "Time": "3h",
+    "Content": "Evaluate the options for paying the ransom, including the potential costs and risks of doing so. Determine if any insurance policies cover ransomware payments.",
+    "Priority": 2
+  },
+  {
+    "Description": "Monitor for signs of reinfection",
+    "Responsible": "IT Security Team Lead",
+    "Time": "12h",
+    "Content": "Continuously monitor systems for signs of reinfection or additional malicious activity related to the ransomware attack.",
+    "Priority": 1
+  },
+  {
+    "Description": "Provide support to affected users",
+    "Responsible": "IT Operations Officer",
+    "Time": "6h",
+    "Content": "Offer assistance to users affected by the ransomware attack. Alternative ways of performing tasks may be necessary.",
+    "Priority": 1
+  },
+  {
+    "Description": "Restore Infected Systems",
+    "Responsible": "Recovery Manager",
+    "Time": "6h",
+    "Content": "Restore Infected Systems according to BCP from backups.",
+    "Priority": 1
+  }
+]

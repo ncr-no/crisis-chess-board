@@ -1,0 +1,51 @@
+[
+  {
+      "Description": "Verify that services have been patched",
+      "Responsible": "IT Operations Officer",
+      "Time": "2h",
+      "Content": "Ensure that infrastructure is patched and does not have any known vulnerabilities.",
+      "Priority": 3
+  },
+  {
+      "Description": "Limit outward facing services",
+      "Responsible": "IT Operations Officer",
+      "Time": "1h",
+      "Content": "If a device does not require access from the open access, restrict it, so that it is only accessible from the internal network (VPN).",
+      "Priority": 3
+  },
+  {
+      "Description": "Restrict open ports",
+      "Responsible": "IT Operations Officer",
+      "Time": "1h",
+      "Content": "Close all ports that are not required for the operation of the device targeted.",
+      "Priority": 3
+  },
+  {
+      "Description": "Verify that 2FA is enabled",
+      "Responsible": "IT Security Team Lead",
+      "Time": "30m",
+      "Content": "Ensure that 2FA is enabled for all services that support it.",
+      "Priority": 3
+  },
+  {
+      "Description": "Ensure inactive accounts are locked",
+      "Responsible": "IT Operations Officer",
+      "Time": "1h",
+      "Content": "Ensure that accounts not being used are disabled.",
+      "Priority": 3
+  },
+  {
+    "Description": "Notify employees of increased risk level",
+    "Responsible": "IT Security Team Lead",
+    "Time": "1h",
+    "Content": "Consider informing employees of the increased risk level. Inform employees to report suspicious activity to security team.",
+    "Priority": 3
+},
+  {
+      "Description": "Implement URL analysis on incoming emails",
+      "Responsible": "IT Security Team Lead",
+      "Time": "12h",
+      "Content": "Determining if a URL is benign or malicious by analyzing the URL or its components.",
+      "Priority": 3
+  }
+]

@@ -1,0 +1,72 @@
+[
+  {
+    "Description": "Schedule Initial Status Meeting and alert personnel",
+    "Responsible": "Crisis Manager",
+    "Time": "20m",
+    "Content": "Organize an immediate meeting with all key stakeholders, including upper management and relevant department heads, to discuss the current situation, share initial findings, and outline next steps.",
+    "Priority": 1
+  },  
+  {
+    "Description": "Identify which systems/applications are being targeted",
+    "Responsible": "CISO",
+    "Time": "3h",
+    "Content": "Analyze logs and network traffic to determine affected systems and applications, prioritizing critical assets.",
+    "Priority": 1
+  }, 
+  {
+    "Description": "Contact ISP - ask for assistance in blocking traffic",
+    "Responsible": "Incident Manager",
+    "Time": "3h",
+    "Content": "Coordinate with the ISP to block malicious traffic and discuss possible mitigation strategies.",
+    "Priority": 3
+  },
+  {
+    "Description": "Identify worst business impact if unable to mitigate DDoS",
+    "Responsible": "CFO",
+    "Time": "4h",
+    "Content": "Assess potential consequences, such as financial losses or reputational damage, if the DDoS attack cannot be mitigated, and services remain unavailable.",
+    "Priority": 3
+  },
+  {
+    "Description": "Consider segregation of internet services",
+    "Responsible": "CTO",
+    "Time": "3h",
+    "Content": "Separate internal web traffic from affected services to reduce impact",
+    "Priority": 3
+  },
+  {
+    "Description": "Report incident to police",
+    "Responsible": "Incident Manager",
+    "Time": "3h",
+    "Content": "Notify the appropriate law enforcement agency about the DoS attack, providing relevant details and requesting assistance if needed.",
+    "Priority": 3
+  },  
+  {
+    "Description": "Implement Geofencing",
+    "Responsible": "CTO",
+    "Time": "2h",
+    "Content": "Blacklist IP addresses used by the attacker",
+    "Priority": 1
+  },
+  {
+    "Description": "Add Web Application Firewall (WAF)",
+    "Responsible": "IT Operations Officer",
+    "Time": "1d",
+    "Content": "e.g. Cloudflare, Sucuri, Incapsula, etc.",
+    "Priority": 3
+  },
+  {
+    "Description": "Inform stakeholders of the progress of containment activities in accordance with the CIRP.",
+    "Responsible": "Incident Manager",
+    "Time": "12h",
+    "Content": "Regularly update internal and external stakeholders on the status of the incident, ongoing mitigation efforts, and potential impacts.",
+    "Priority": 3
+  },
+  {
+    "Description": "Consider initiating Business Continuity Plan (BCP) if the incident is likely to have a significant impact on the business.",
+    "Responsible": "Incident Manager",
+    "Time": "5h",
+    "Content": "Assess the severity of the incident and activate the BCP if necessary to maintain essential business functions during and after the DDoS attack.",
+    "Priority": 3
+  }
+   ]

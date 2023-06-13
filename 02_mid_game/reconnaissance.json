@@ -1,0 +1,9 @@
+[
+  {
+    "Description": "Keep monitoring for signs of infection.",
+    "Responsible": "IT Security Team Lead",
+    "Time": "1d",
+    "Content": "Monitor for malicious activity. The risk level is hightened due to reconnaissance activity.",
+    "Priority": 3
+  }
+]

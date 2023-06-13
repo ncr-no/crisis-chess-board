@@ -1,0 +1,16 @@
+[
+  {
+    "Description": "Review and strengthen access control for vendor software",
+    "Responsible": "CISO",
+    "Time": "1w",
+    "Content": "Review which accesses the vendor (and others) have to the company's systems and data.",
+    "Priority": 2
+  },
+  {
+    "Description": "Keep monitoring for signs of compromise",
+    "Responsible": "IT Security Team Lead",
+    "Time": "5d",
+    "Content": "Continuously monitor for signs of compromise.",
+    "Priority": 2
+  }
+]

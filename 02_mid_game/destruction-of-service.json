@@ -1,0 +1,16 @@
+[
+  {
+    "Description": "Restore affected Systems",
+    "Responsible": "Recovery Manager",
+    "Time": "6h",
+    "Content": "Restore Infected Systems according to Business Continuity Plan from backups.",
+    "Priority": 1
+  },
+  {
+    "Description": "Monitor for signs of reinfection",
+    "Responsible": "IT Security Team Lead",
+    "Time": "12h",
+    "Content": "Continuously monitor systems for signs of reinfection or additional malicious activity.",
+    "Priority": 1
+  }
+]

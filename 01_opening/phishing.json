@@ -1,0 +1,51 @@
+[
+  {
+    "Description": "Identify compromised user and their accesses",
+    "Responsible": "Incident Manager",
+    "Time": "20m",
+    "Content": "Identfiy the employee that was phished. Which services does the employee have access to?",
+    "Priority": 1
+  },
+  {
+    "Description": "Notify employees about ongoing phishing attack",
+    "Responsible": "IT Security Team Lead",
+    "Time": "1h",
+    "Content": "Notify employees of the ongoing phishing attack, provide guidance on what to do if they received the email or opened the attachment, and remind them to remain vigilant for future phishing attempts.",
+    "Priority": 2
+  },
+  {
+    "Description": "Meeting with phished employee",
+    "Responsible": "Incident Manager",
+    "Time": "1h",
+    "Content": "Let the employee know that their account is phished. Talk about the incident. What made the employee click the link? What could have been done to prevent this? Collect information, to help prevent future phishing attacks.",
+    "Priority": 2
+  },
+  {
+    "Description": "Gather IOCs from phishing attack",
+    "Responsible": "IT Security Team Lead",
+    "Time": "4h",
+    "Content": "The email (.eml), the link, the IP address, the domain, the email address, the attachment, etc.",
+    "Priority": 3
+  },
+  {
+    "Description": "Secure artefacts from attack",
+    "Responsible": "IT Security Team Lead",
+    "Time": "4h",
+    "Content": "Disk and memory dump of affected devices.",
+    "Priority": 3
+  },
+  {
+    "Description": "Contain incident (disable accounts)",
+    "Responsible": "IT Security Team Lead",
+    "Time": "1h",
+    "Content": "Lock all accounts that the employee has access to. Force password reset.",
+    "Priority": 1
+  },
+  {
+    "Description": "Reinstallation Employee Device",
+    "Responsible": "Incident Manager",
+    "Time": "1d",
+    "Content": "Perform a complete reinstallation of the employee computer to remove any potential infections.",
+    "Priority": 2
+  }
+]

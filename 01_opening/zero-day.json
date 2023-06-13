@@ -1,0 +1,65 @@
+[
+  {
+    "Description": "Alert personnel and schedule initial status meeting",
+    "Responsible": "Crisis Manager",
+    "Time": "20m",
+    "Content": "Activate the crisis response plan and ensure relevant personnel are informed of the discovered zero-day vulnerability. Schedule a meeting to discuss the incident.",
+    "Priority": 1
+  },
+  {
+    "Description": "Assess the organization's exposure to the vulnerability",
+    "Responsible": "CISO",
+    "Time": "3h",
+    "Content": "Identify systems, applications, or networks that are potentially affected by the zero-day vulnerability.",
+    "Priority": 1
+  },
+  {
+    "Description": "Decide whether to take vulnerable systems offline",
+    "Responsible": "CTO",
+    "Time": "3h",
+    "Content": "Based on severity and exposure to the vulnerability, decide whether or not to take vulnerable systems offline until a patch is available.",
+    "Priority": 1
+  },
+  {
+    "Description": "Monitor for vendor-provided patches or workarounds",
+    "Responsible": "IT Operations Officer",
+    "Time": "1d",
+    "Content": "Keep an eye on updates from the affected software vendor or the security community for patches or workarounds to address the vulnerability.",
+    "Priority": 1
+  },
+  {
+    "Description": "Retrieve information about the vulnerability",
+    "Responsible": "Incident Manager",
+    "Time": "2h",
+    "Content": "What services are affected? How can the vulnerability be exploited? CVE Severity? (0.0 - 10.0) What versions are vulnerable? What are the IOC's (Indicators of Compromise)?",
+    "Priority": 3
+  },
+  {
+    "Description": "Create a plan for patching vulnerable services",
+    "Responsible": "IT Operations Officer",
+    "Time": "3h",
+    "Content": "Is a patch available? What is the process for patching? Are there any dependencies that need to be patched first?",
+    "Priority": 3
+  },
+  {
+    "Description": "Notify employees to stay on alert regarding suspicious activity",
+    "Responsible": "HR-Manager",
+    "Time": "3h",
+    "Content": "Notify staff about the critical zero-day vulnerability and ask them to report any suspicious activity or behavior that they observe on their devices or systems. Provide clear instructions on how to report such activity and emphasize the importance of staying vigilant against potential threats. Also, ensure that staff members are aware of the organization's incident response plan and how to access it in case of an incident.",
+    "Priority": 3
+  },
+  {
+    "Description": "Contact suppliers to assess their exposure to the critical zero-day vulnerability",
+    "Responsible": "CISO",
+    "Time": "12h",
+    "Content": "Ask suppliers what they are doing to mitigate the risk. Ask supplier what actions you can take to mitigate the risk",
+    "Priority": 3
+  },
+  {
+    "Description": "Monitor for signs of compromise",
+    "Responsible": "IT Security Team Lead",
+    "Time": "6h",
+    "Content": "Look for signs of compromise (use IOC's). Look into historic logs for signs of compromise. Look for signs of reconnaissance for the zero-day.",
+    "Priority": 3
+  }
+]

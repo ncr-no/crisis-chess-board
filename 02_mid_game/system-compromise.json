@@ -1,0 +1,30 @@
+[
+  {
+    "Description": "Keep monitoring for signs of compromise",
+    "Responsible": "IT Security Team Lead",
+    "Time": "1w",
+    "Content": "Keep monitoring for indicators of compromise.",
+    "Priority": 1
+  },
+  {
+    "Description": "Mitigate vulnerabilities used in the attack",
+    "Responsible": "CTO",
+    "Time": "1d",
+    "Content": "Mitigate all vulnerabilities and exploits used in the attack.",
+    "Priority": 1
+  },
+  {
+    "Description": "Restore system from backup",
+    "Responsible": "Recovery Manager",
+    "Time": "1w",
+    "Content": "After all vulnerabilities are mitigated, restore the system according to BCP and backups. Resume normal operations.",
+    "Priority": 1
+  },
+  {
+    "Description": "Verify that the system works as expected after the restoration",
+    "Responsible": "Recovery Manager",
+    "Time": "4h",
+    "Content": "Ensure that the system is working as expected after the restoration has been completed.",
+    "Priority": 1
+  }
+]

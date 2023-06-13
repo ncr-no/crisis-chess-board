@@ -1,0 +1,100 @@
+[
+  {
+    "Description": "Schedule Initial Status Meeting and alert personnel",
+    "Responsible": "Crisis Manager",
+    "Time": "20m",
+    "Content": "Organize an immediate meeting with all key stakeholders, including upper management and relevant department heads, to discuss the current situation, share initial findings, and outline next steps.",
+    "Priority": 1
+  },
+  {
+    "Description": "Determine scope of the ransomware attack",
+    "Responsible": "CISO",
+    "Time": "3h",
+    "Content": "Determine the scope of the attack by identifying all impacted systems, services, and data. Information will be used to understand the extent of the damage and prioritizing recovery efforts.",
+    "Priority": 1
+  },
+  {
+    "Description": "Identify attack vector",
+    "Responsible": "IT Security Team Lead",
+    "Time": "3h",
+    "Content": "Identify initial attack vector used by the attackers to get access to the organization's systems.",
+    "Priority": 1
+  },
+  {
+    "Description": "Preserve evidence and initiate a forensic investigation",
+    "Responsible": "CISO",
+    "Time": "8h",
+    "Content": "Secure and preserve all relevant digital evidence, including logs and infected systems, to facilitate a thorough forensic investigation.",
+    "Priority": 1
+  },
+  {
+    "Description": "Assess financial impact and risk exposure",
+    "Responsible": "CFO",
+    "Time": "6h",
+    "Content": "Estimate the financial implications of the ransomware attack, considering factors such as potential loss of revenue, remediation costs, and regulatory fines.",
+    "Priority": 2
+  },
+  {
+    "Description": "Create a priority list for recovering systems",
+    "Responsible": "CTO",
+    "Time": "3h",
+    "Content": "Develop a list of critical systems and services that need to be restored first, considering business needs, customer impact, and regulatory requirements. This list will be important in the restoration process.",
+    "Priority": 3
+  },
+  {
+    "Description": "Develop a communication strategy for stakeholders",
+    "Responsible": "Communication Manager",
+    "Time": "4h",
+    "Content": "Prepare a plan for communicating with internal and external stakeholders, including employees, customers, and partners, about the incident and the organization's response. The plan should help restore the reputation of the organization.",
+    "Priority": 2
+  },
+  {
+    "Description": "Isolate the Infected Systems",
+    "Responsible": "CISO",
+    "Time": "3h",
+    "Content": "Isolate the infected system(s) from the network and the internet to prevent the spread of the ransomware to other systems.",
+    "Priority": 1
+  },
+  {
+    "Description": "Notify shareholders",
+    "Responsible": "CEO",
+    "Time": "3h",
+    "Content": "Consider the need for notifying shareholders of the ransomware attack, providing a high-level overview of the incident and the steps being taken to contain and remediate it.",
+    "Priority": 3
+  },
+  {
+    "Description": "Notify Law Enforcement",
+    "Responsible": "Legal Officer",
+    "Time": "1h",
+    "Content": "Notify law enforcement of the attack, provide any relevant details. Work with law enforcement to investigate the attack and potentially track down the attackers.",
+    "Priority": 3
+  },
+  {
+    "Description": "Notify regulatory authorities",
+    "Responsible": "Legal Officer",
+    "Time": "1h",
+    "Content": "Notify any regulatory bodies or authorities that require notification of a security incident (e.g., as required by law or regulation). This may include working with legal counsel to ensure compliance with any reporting requirements.",
+    "Priority": 3
+  },
+  {
+    "Description": "Locate ransomware demand and related information about the attackers",
+    "Responsible": "IT Security Team Lead",
+    "Time": "2h",
+    "Content": "Locate ransom note or any other communication from the attackers, which may contain information about the attackers.",
+    "Priority": 2
+  },
+  {
+    "Description": "Assess operational impact",
+    "Responsible": "CTO",
+    "Time": "2h",
+    "Content": "Assess the impact on the organization's operations. What features are unavailable for employees that they need? This list will help when providing technical help to employees.",
+    "Priority": 2
+  },
+  {
+    "Description": "Locate BCP procedures",
+    "Responsible": "Recovery Manager",
+    "Time": "2h",
+    "Content": "Locate BCP and prepare for restoring systems. Locate backups, and verify that backups are secure and free from ransomware before restoring.",
+    "Priority": 1
+  }
+]
